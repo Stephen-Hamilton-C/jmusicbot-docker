@@ -18,7 +18,6 @@ services:
   tty: true
   
   environment:
-    TZ: "America/New_York"
     OWNER_ID: "Put your Discord User ID here"
     BOT_TOKEN: "Put your Discord Bot token here"
     
@@ -70,3 +69,10 @@ services:
     # This could be "A-Z Lyrics", "Genius", "MusicMatch", or "LyricsFreak"
     BOT_LYRICS_DEFAULT: "A-Z Lyrics"
 ```
+The only required environment variables are `OWNER_ID` and `BOT_TOKEN`.
+If the rest are left out, they will be at their default values, which are used in this example.
+
+An additional environment variable is `OVERWRITE_CONFIG`, which can be `"yes"` or `"no"`.
+If it is set to `"yes"`, then the `config.txt` for the bot will be updated with the config environment variables at next start.
+Otherwise, changing the config environment variables will have no effect.
+This should be left to `"yes"` on first run so that the config can be initialized.
