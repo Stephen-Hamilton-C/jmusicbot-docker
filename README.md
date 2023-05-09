@@ -88,4 +88,4 @@ This should be left to `"yes"` on first run so that the config can be initialize
 ## Additional Links
 - [JMusicBot](https://github.com/jagrosh/MusicBot)
 - [Docker Hub](https://hub.docker.com/r/stephenhamiltonc/jmusicbot)
-<!-- - [Github](https://github.com/Stephen-Hamilton-C/jmusicbot-docker -->
+<!-- - [Github](https://github.com/Stephen-Hamilton-C/jmusicbot-docker) -->
