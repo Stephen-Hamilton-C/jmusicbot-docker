@@ -3,7 +3,15 @@ Dockerized version of [JMusicBot](https://github.com/jagrosh/MusicBot).
 
 I love running my server applications as Docker containers,
 and this self-hosted Discord Youtube Music bot is no different.
-This simple Docker image easily enables you to get a JMusicBot up and running.
+This simple Docker image makes it even easier to get JMusicBot up and running.
+
+## Quickstart
+1. Follow JMusicBot's excellent guide on [getting a bot token](https://jmusicbot.com/getting-a-bot-token/)
+and [finding your user ID](https://jmusicbot.com/finding-your-user-id/)
+2. Create a `docker-compose.yml` file using [the template below](#docker-compose)
+3. Put your bot token in the environment variable for `BOT_TOKEN`
+4. Put your user ID in the environment variable for `OWNER_ID`
+5. Run `docker-compose up -d`
 
 ## docker-compose
 Here is a template docker-compose.yml to get you started:
