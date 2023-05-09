@@ -84,3 +84,8 @@ An additional environment variable is `OVERWRITE_CONFIG`, which can be `"yes"` o
 If it is set to `"yes"`, then the `config.txt` for the bot will be updated with the config environment variables at next start.
 Otherwise, changing the config environment variables will have no effect.
 This should be left to `"yes"` on first run so that the config can be initialized.
+
+## Additional Links
+- [JMusicBot](https://github.com/jagrosh/MusicBot)
+- [Docker Hub](https://hub.docker.com/r/stephenhamiltonc/jmusicbot)
+<!-- - [Github](https://github.com/Stephen-Hamilton-C/jmusicbot-docker -->
